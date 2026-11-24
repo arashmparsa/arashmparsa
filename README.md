@@ -4,7 +4,7 @@ Data scientist / ML engineer in the Bay Area. I build models and LLM systems tha
 
 - **Clinical ML** with Dr. Vivek Rudrapatna's group at UCSF: point-in-time clinical trial matching from timestamped notes, a small CPU-trained head that beats 7-8B open-weight LLMs at a fraction of the compute (manuscript in preparation).
 - **LLM agents, RAG and evaluation** at Veru365 (fintech): red-teaming production financial agents, LLM-as-judge pipelines, permission-aware retrieval.
-- **Bioinformatics and biophotonics**: bulk and spatial transcriptomics, blood Raman spectroscopy for early lung cancer detection (co-author, manuscript in preparation).
+- **Bioinformatics and biophotonics**: bulk and spatial transcriptomics, blood Raman spectroscopy for cancer detection (ongoing collaboration, not yet published).
 
 Background: BS Bioengineering/Bioinformatics (UC Santa Cruz), MS Data Science/Analytics (Georgia Tech).
 
