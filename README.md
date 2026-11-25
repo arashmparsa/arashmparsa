@@ -16,7 +16,7 @@ Background: BS Bioengineering/Bioinformatics (UC Santa Cruz), MS Data Science/An
 - [insitro/redun#139](https://github.com/insitro/redun/pull/139): custom exceptions with multi-argument constructors now preview in the redun console instead of showing as "Unknown"
 - [latchbio/latch#631](https://github.com/latchbio/latch/pull/631): `latch test-data upload` keeps S3 keys under the account prefix for absolute paths and on Windows
 - [ESPARGOS/pyespargos#17](https://github.com/ESPARGOS/pyespargos/pull/17): helper for mapping Wi-Fi CSI onto an IFFT grid (from the HT40 subcarrier-mapping analysis in [#9](https://github.com/ESPARGOS/pyespargos/issues/9))
-- Also: [CORAL#2](https://github.com/zou-group/CORAL/pull/2), [PhysioWave#4](https://github.com/ForeverBlue816/PhysioWave/pull/4), [PrismQuant#6](https://github.com/ForeverBlue816/PrismQuant/pull/6), [PCBRouteAgent#5](https://github.com/chip-ai-agent/PCBRouteAgent/pull/5), [DeepTrack2#541](https://github.com/DeepTrackAI/DeepTrack2/pull/541)
+- Also: [CORAL#2](https://github.com/zou-group/CORAL/pull/2), [PhysioWave#4](https://github.com/ForeverBlue816/PhysioWave/pull/4), [PrismQuant#6](https://github.com/ForeverBlue816/PrismQuant/pull/6), [PCBRouteAgent#5](https://github.com/chip-ai-agent/PCBRouteAgent/pull/5), [DeepTrack2#541](https://github.com/DeepTrackAI/DeepTrack2/pull/541), [ToolUniverse#911](https://github.com/mims-harvard/ToolUniverse/pull/911)
 
 #### Selected projects
 | Project | What it shows |
