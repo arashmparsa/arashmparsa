@@ -1,12 +1,16 @@
 ### Hi, I'm Arash 👋
 
-Data scientist / ML engineer in the Bay Area. I build models and LLM systems that hold up under careful evaluation.
+**ML Engineer · LLM Agents & Evals · Clinical ML · Bio-sensing hardware · Bioinformatics · Open-source contributor**
 
-- **Clinical ML** with Dr. Vivek Rudrapatna's group at UCSF: point-in-time clinical trial matching from timestamped notes, a small CPU-trained head that beats 7-8B open-weight LLMs at a fraction of the compute (manuscript in preparation).
-- **LLM agents, RAG and evaluation** at Veru365 (fintech): red-teaming production financial agents, LLM-as-judge pipelines, permission-aware retrieval.
-- **Bioinformatics and biophotonics**: bulk and spatial transcriptomics, blood Raman spectroscopy for cancer detection (ongoing collaboration, not yet published).
+Bay Area. My path runs from bio-sensing hardware and bioinformatics through applied ML in industry to LLM systems. Today I build machine learning systems, RAG knowledge bases and LLM agents, and evaluate them carefully enough to trust the numbers.
 
-Background: BS Bioengineering/Bioinformatics (UC Santa Cruz), MS Data Science/Analytics (Georgia Tech).
+- **LLM agents, RAG and evaluation**, Veru365 (fintech): LLM-as-judge pipelines, red-teaming production financial agents, adversarial evaluation sets, permission-aware retrieval.
+- **Clinical ML**, UCSF collaboration: point-in-time clinical trial matching from timestamped notes; a small CPU-trained model that beats 7-8B open-weight LLMs at a fraction of the compute (manuscript in preparation). Also image analysis for eye-flow imaging, UCSF Ophthalmology.
+- **Bio-sensing hardware**, UC Berkeley collaborations since 2015: embedded firmware (C++, Teensy/Arduino), four-layer PCB design, sensor signal processing and computer vision for sensing.
+- **Applied ML in industry**, Optelligence (since 2022): regression and classification models, CNNs and graph neural networks on experimental data, A/B testing.
+- **Biomedical data**: blood Raman spectroscopy for cancer detection with National Central University, Taiwan (manuscript in preparation); bulk and spatial transcriptomics, RNA-seq and single-cell.
+
+Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); MS candidate, Data Science/Analytics (Georgia Tech).
 
 #### Open-source contributions
 - [StanfordMIMI/Glyph#2](https://github.com/StanfordMIMI/Glyph/pull/2) (merged): reads clinical reports as UTF-8 so non-ASCII text is not silently garbled before embedding
