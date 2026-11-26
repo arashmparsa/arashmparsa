@@ -27,6 +27,9 @@ Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); Data Science/Analy
 | [pushback-eval](https://github.com/arashmparsa/pushback-eval) | Multi-turn sycophancy eval with a validated grader |
 | [insider-cluster-radar](https://github.com/arashmparsa/insider-cluster-radar) | SEC Form 4 pipeline into Postgres and a look-ahead-safe event study (an honest null result) |
 
+#### Certifications
+Anthropic Academy — [Building with the Claude API](https://www.anthropic.com/learn) (Nov 2026) · Model Context Protocol: Advanced Topics (Nov 2026) · Claude Code in Action (Nov 2026). CITI Program — Data or Specimens Only Research; Conflicts of Interest (2026).
+
 **Stack:** Python, SQL/PostgreSQL, PyTorch, scikit-learn, XGBoost, Hugging Face, Scanpy/Squidpy, Nextflow, Docker, AWS.
 
 **Elsewhere:** [portfolio](https://arashmparsa.github.io) · [LinkedIn](https://www.linkedin.com/in/arash-p-33166a108)
