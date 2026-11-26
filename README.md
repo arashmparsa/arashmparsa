@@ -10,7 +10,7 @@ Bay Area. My path runs from bio-sensing hardware and bioinformatics through appl
 - **Applied ML in industry**, Optelligence (since 2022): regression and classification models, CNNs and graph neural networks on experimental data, A/B testing.
 - **Biomedical data**: blood Raman spectroscopy for cancer detection with National Central University, Taiwan (manuscript in preparation); bulk and spatial transcriptomics, RNA-seq and single-cell.
 
-Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); MS candidate, Data Science/Analytics (Georgia Tech).
+Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); Data Science/Analytics (Georgia Tech).
 
 #### Open-source contributions
 - [StanfordMIMI/Glyph#2](https://github.com/StanfordMIMI/Glyph/pull/2) (merged): reads clinical reports as UTF-8 so non-ASCII text is not silently garbled before embedding
