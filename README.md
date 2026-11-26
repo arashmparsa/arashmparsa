@@ -14,7 +14,7 @@ Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); Data Science/Analy
 
 #### Open-source contributions
 - [StanfordMIMI/Glyph#2](https://github.com/StanfordMIMI/Glyph/pull/2) (merged): reads clinical reports as UTF-8 so non-ASCII text is not silently garbled before embedding
-- Plus 12 more fixes under maintainer review; listed here once merged.
+- 12+ more fixes under maintainer review, and growing; each is listed here once merged.
 
 #### Selected projects
 | Project | What it shows |
