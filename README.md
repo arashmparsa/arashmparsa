@@ -1,6 +1,6 @@
 ### Hi, I'm Arash 👋
 
-**ML Engineer · LLM Agents & Evals · Clinical ML · Bio-sensing hardware · Bioinformatics · Open-source contributor**
+**ML Engineer · LLM Agents & Evals · Clinical ML at UCSF · Open-source contributor · Embedded hardware & firmware, PCBs (UC Berkeley) bio-sensing · Bioinformatics (RNA-seq, single-cell)**
 
 Bay Area. My path runs from bio-sensing hardware and bioinformatics through applied ML in industry to LLM systems. Today I build machine learning systems, RAG knowledge bases and LLM agents, and evaluate them carefully enough to trust the numbers.
 
