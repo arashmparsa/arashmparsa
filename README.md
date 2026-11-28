@@ -15,11 +15,11 @@ Bay Area. Today I build machine learning systems, RAG knowledge bases and LLM ag
 Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); Data Science/Analytics (Georgia Tech).
 
 #### Open-source contributions
-I contribute fixes to the research code behind papers I read, mostly in clinical ML, biomedical AI agents and efficient inference. The bugs I look for are the quiet ones, where a pipeline keeps running and returns something plausible but wrong. I find them by reading the paper and README, reproducing the failure on the project's own data or a live API, and adding a regression test that fails on main and passes with the fix.
+I fix bugs in the research code behind papers I read: the quiet kind, where a pipeline keeps running but returns plausible, wrong results.
 
-**Clinical text and biomedical tools for AI agents.** In Stanford MIMI's [Glyph](https://github.com/StanfordMIMI/Glyph/pull/2), which learns sparse concepts from foundation-model embeddings of clinical reports, labs and images, report files were decoded with the machine's locale. On Windows (cp1252), a UTF-8 report's ×, ±, ≥ turned into mojibake ("Ã—") before tokenization. That silently shifted the embeddings the concept dictionaries are learned from, and some characters crashed the run. Reports and lab JSON are now read as UTF-8, with a test that simulates a non-UTF-8 locale, so the same report gives the same embedding on any machine. In Harvard's [ToolUniverse](https://github.com/mims-harvard/ToolUniverse/pull/911), a library of biomedical tools that LLM agents call, the MedlinePlus genetics-index tool returned 4 rows with empty names (the section URLs) instead of the 2,965 pages in TopicIndex.xml. It read only the top-level topics and looked for a `name` field the XML doesn't have; the pages sit one level down, named in `<title>`. An agent calling the tool now gets 1,515 genes, 1,315 conditions, 110 handbook pages and 25 chromosomes, each tagged with its section.
-
-**Efficient inference and quantization.** In [PrismQuant](https://github.com/ForeverBlue816/PrismQuant/pull/6), GPTQ's `fasterquant` called `torch.cuda.synchronize()` every time, so quantizing a model on a CPU-only machine crashed after the quantization math had finished. It now synchronizes only when the weights are on a GPU, and CPU tests cover the symmetric and asymmetric paths, so the quantizer runs on edge and CPU-only development machines.
+- [Glyph](https://github.com/StanfordMIMI/Glyph/pull/2) (Stanford MIMI, merged): clinical reports are read as UTF-8, so symbols like ± and ≥ are no longer garbled before they are embedded.
+- [ToolUniverse](https://github.com/mims-harvard/ToolUniverse/pull/911) (Harvard, merged): the MedlinePlus genetics tool gives AI agents all 2,965 pages instead of 4 empty rows.
+- [PrismQuant](https://github.com/ForeverBlue816/PrismQuant/pull/6) (merged): GPTQ quantization runs on CPU-only machines.
 
 13+ more fixes are under maintainer review; each is added here once merged.
 
