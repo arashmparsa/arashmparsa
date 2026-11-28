@@ -15,11 +15,13 @@ Bay Area. Today I build machine learning systems, RAG knowledge bases and LLM ag
 Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); Data Science/Analytics (Georgia Tech).
 
 #### Open-source contributions
-I fix bugs in the research code behind papers I read: the quiet kind, where a pipeline keeps running but returns plausible, wrong results.
+I fix bugs in the research code behind papers I read: the quiet kind, where a pipeline keeps running but returns plausible, wrong results. Merged so far:
 
-- [Glyph](https://github.com/StanfordMIMI/Glyph/pull/2) (Stanford MIMI, merged): clinical reports are read as UTF-8, so symbols like ± and ≥ are no longer garbled before they are embedded.
-- [ToolUniverse](https://github.com/mims-harvard/ToolUniverse/pull/911) (Harvard, merged): the MedlinePlus genetics tool gives AI agents all 2,965 pages instead of 4 empty rows.
-- [PrismQuant](https://github.com/ForeverBlue816/PrismQuant/pull/6) (merged): GPTQ quantization runs on CPU-only machines.
+In Stanford MIMI's [Glyph](https://github.com/StanfordMIMI/Glyph/pull/2), which learns sparse concepts from foundation-model embeddings of clinical reports, labs and images, report files were decoded with the machine's locale. On Windows that turned UTF-8 symbols such as ×, ± and ≥ into garbage before tokenization, silently shifting the embeddings. Reports and lab JSON are now read as UTF-8.
+
+In Harvard's [ToolUniverse](https://github.com/mims-harvard/ToolUniverse/pull/911), a library of biomedical tools that LLM agents call, the MedlinePlus genetics-index tool returned 4 rows with empty names (the section URLs) instead of the 2,965 pages in TopicIndex.xml. It now reads the pages one level down, so agents get every gene, condition, chromosome and handbook page.
+
+In [PrismQuant](https://github.com/ForeverBlue816/PrismQuant/pull/6)'s GPTQ quantizer, `fasterquant` called `torch.cuda.synchronize()` unconditionally, so quantizing on a CPU-only machine crashed after the math had finished. It now synchronizes only when the weights are on a GPU.
 
 13+ more fixes are under maintainer review; each is added here once merged.
 
