@@ -15,9 +15,10 @@ Bay Area. Today I build machine learning systems, RAG knowledge bases and LLM ag
 Background: BS Bioengineering/Bioinformatics (UC Santa Cruz); Data Science/Analytics (Georgia Tech).
 
 #### Open-source contributions
+- [mims-harvard/ToolUniverse#911](https://github.com/mims-harvard/ToolUniverse/pull/911) (merged): MedlinePlus genetics index lists all 2,965 pages instead of 4 empty rows
 - [ForeverBlue816/PrismQuant#6](https://github.com/ForeverBlue816/PrismQuant/pull/6) (merged): GPTQ runs on CPU-only machines
 - [StanfordMIMI/Glyph#2](https://github.com/StanfordMIMI/Glyph/pull/2) (merged): reads clinical reports as UTF-8 so non-ASCII text is not silently garbled before embedding
-- 11+ more fixes under maintainer review, and growing; each is listed here once merged.
+- 13+ more fixes under maintainer review, and growing; each is listed here once merged.
 
 #### Selected projects
 | Project | What it shows |
